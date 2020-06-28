@@ -143,9 +143,6 @@ body{
     background-color: rgb(221, 221, 221);
     margin: 30px 10px 0px 0px;
 }
-.languages{
-    
-}
 .en-bar{
     display: flex;
     flex-direction: row;
