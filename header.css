@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    padding: 10px 0px;
+    box-shadow: 0 0 10px rgb(66, 66, 66);
+    margin: 0;
+    color: greenyellow;
+    text-shadow: 1px 1px 2px black;
+    border: 5px solid green;
+    animation-name: welcome-border;
+    animation-duration: 2s;
+    background-color: white;
+    animation-iteration-count: infinite;
+    text-decoration: justify;
+}
+@keyframes welcome-border {
+    0%{
+        border: 5px solid green;
+    }
+    30%{
+        border: 5px solid yellow;
+    }
+    80%{
+        border: 5px solid orange;
+    }
+    100%{
+        border: 5px solid green;
+    }
+    
+}
+@media (max-width: 768px){
+    h1{
+        position: relative;
+        top: 10px;
+        text-align: center;
+        padding: 10px 0px;
+        box-shadow: 0 0 10px rgb(66, 66, 66);
+        margin: 0;
+        color: greenyellow;
+        text-shadow: 1px 1px 2px black;
+        border: 5px solid green;
+        animation-name: welcome-border;
+        animation-duration: 1s;
+        background-color: white;
+        animation-iteration-count: infinite;
+    }
+    @keyframes welcome-border {
+        0%{
+            border: 5px solid green;
+        }
+        30%{
+            border: 5px solid yellow;
+        }
+        60%{
+            border: 5px solid orange;
+        }
+        100%{
+            border: 5px solid yellow;
+        }
+        
+    }
+}
