@@ -4,9 +4,10 @@
     /*border: 5px solid springgreen;*/
     float: right;
     margin: 16px 15px;
-    padding: 50px 20px;
+    padding: 20px 20px;
     box-shadow: 0 0 15px rgb(66, 66, 66);
 }
+
 
 .main-2 h3{
     text-align: center;
@@ -22,6 +23,7 @@
     width: 120px;
     float: left;
     margin-left: 100px;
+    
 }
 .school p{
     float: right;
@@ -65,9 +67,17 @@
     .college img{
         position: relative;
         left: 55px;
+        box-shadow: 0 0 5px #ff22;
     }
     .college{
         margin-top: 100px;
-        margin-bottom: 150px;
+        margin-bottom: 0px;
     }
+
+}
+
+@keyframes eduBgAnim{
+    0% {}
+    100%{}
+
 }
