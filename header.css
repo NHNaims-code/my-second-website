@@ -48,13 +48,13 @@ h1{
             border: 5px solid green;
         }
         30%{
-            border: 6px solid yellow;
+            border: 5px solid yellow;
         }
         60%{
             border: 5px solid orange;
         }
         100%{
-            border: 6px solid yellow;
+            border: 5px solid yellow;
         }
         
     }
