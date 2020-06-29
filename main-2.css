@@ -8,6 +8,7 @@
     box-shadow: 0 0 15px rgb(66, 66, 66);
 }
 
+
 .main-2 h3{
     text-align: center;
     margin-top: 35px;
@@ -22,6 +23,7 @@
     width: 120px;
     float: left;
     margin-left: 100px;
+    
 }
 .school p{
     float: right;
@@ -71,4 +73,11 @@
         margin-top: 100px;
         margin-bottom: 0px;
     }
+
+}
+
+@keyframes eduBgAnim{
+    0% {}
+    100%{}
+
 }
