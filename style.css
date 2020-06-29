@@ -209,3 +209,9 @@ body{
     background-color: #F1F1F1;
     flex-grow: 15;
 }
+@media (max-width: 768px){
+    .main-1{
+        width: 100%;
+        margin: auto auto;
+    }
+}
